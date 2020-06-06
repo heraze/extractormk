@@ -369,7 +369,7 @@ layout = [
     [sg.Text('Senha:   '), sg.InputText(default_text=login_payload['password'],
                                         password_char='*', size=(25, 1), do_not_clear=True)],
     [sg.Multiline(size=(50,15), do_not_clear=True)],
-    [sg.Checkbox('Baixar faturas em PDF', default=False), sg.Checkbox('Contrato/Mala direta',
+    [sg.Checkbox('Baixar PDF', default=False), sg.Checkbox('Contrato',
                                 default=False), sg.Submit('Confirmar')],
     [sg.Output(size=(50,10))]]
 
