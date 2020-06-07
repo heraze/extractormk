@@ -1,5 +1,4 @@
 # extractormk
-https://github.com/heraze/extractormk/
 
 Aplicativo feito com intuito de automatizar tarefas administrativas como o download de faturas e geração de termos em lote.
 
